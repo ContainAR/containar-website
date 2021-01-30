@@ -1,0 +1,17 @@
+
+
+@font-face {
+    font-family: 'Frutiger_55_Roman';
+    src: local('Frutiger_55_Roman'), local('Frutiger_55_Roman'),
+      url('./Frutiger_55_Roman.TTF') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Frutiger_65_Bold';
+    src: local('Frutiger_65_Bold'), local('Frutiger_65_Bold'),
+      url('./Frutiger_65_Bold.TTF') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+  }
