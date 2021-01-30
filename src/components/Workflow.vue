@@ -5,10 +5,10 @@
 
     <section>
 
-    <p>So einfach funktioniert's:</p>
+    <p class="teaser_workflow">So einfach funktioniert's:</p>
 
         <div class="steps">
-            <div>
+            <div class="element">
 
                 <div class="wuerfel">
                     <p class="number">1</p>
@@ -27,7 +27,7 @@
                 App ContainAR.
                 </p>
             </div>
-            <div>
+            <div class="element">
                 <div class="wuerfel">
                     <p class="number">2</p>
                 </div>
@@ -44,7 +44,7 @@
                 sollte.
                 </p>
             </div>
-            <div>
+            <div class="element">
                 <div class="wuerfel">
                     <p class="number">3</p>
                 </div>
@@ -84,12 +84,16 @@ section {
 
 /* Überschrift: So einfach funktionierts */
 section p {
-    flex-grow: 1;
+    
     align: left;
     color: rgb(239, 114, 2);
     font-family: "Frutiger_65_Bold";
     font-size: 1.1em;
-    padding: 2%;
+    padding-top: 2%;
+} 
+
+.teaser_workflow {
+    font-size: 1.2em;
 }
 
 .steps {
@@ -101,7 +105,7 @@ section p {
     /* display: inline-flex; */
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:750px) {
 
 
     .steps  {
@@ -110,8 +114,15 @@ section p {
 
     }
 
+     .steps div { 
+
+        height: 200px;
+        width: 300px;
+    }
+
 }
 
+/* Die drei Schritte */
 .steps div {
     
  
@@ -119,22 +130,55 @@ section p {
     flex-direction: column;
     flex-wrap: wrap;
 
+    
+
     align-self: center;
-    margin: 2%;
-    height: 5%;
-    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+
+    height: 350px;
+    width: 500px;
+
+
     align-content: center;
     background-color: white;
     
 
 }
 
+ .steps .element {
+
+    padding-top: 4%;
+}
+
+@media screen and (min-width:1250px) { 
+
+    .teaser_workflow {
+
+        font-size: 2em;
+
+    }
 
 
+}
 
+
+@media screen and (max-width:500px) {
+
+
+    .steps div { 
+
+        height: 300px;
+        width: 300px;
+    }
+
+
+}
+
+/* Orangener Würfel */
 .steps div div { 
-      
-    width: 50%;
+
     justify-content: center;
     align-content: center; 
     background-color: rgb(239, 114, 2);
@@ -143,6 +187,7 @@ section p {
     transform: rotate(20deg);
     color: white;
     font-size: 1.5em;
+    
 
 
 }

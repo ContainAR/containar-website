@@ -56,6 +56,12 @@ export default {
 
 }
 
+p {
+    font-family: "Frutiger_55_Roman";
+    font-size: 1.0em;
+    color: black;
+}
+
 @media screen and (max-width:500px) {
 
 
@@ -75,10 +81,12 @@ export default {
 
 }
 
-
+/* Textbereich */
 .left {
     
     grid-area: text;
+
+    
 
     display: flex;
     flex-direction: column;
@@ -89,6 +97,25 @@ export default {
     
 }
 
+@media screen and (min-width:1250px) { 
+
+    .left h4 {
+        font-size: 1.8em;
+    }
+
+    .left h3 {
+
+          font-size: 2em;
+    }
+
+    .left p {
+        font-size: 1.8em;
+    }
+
+}
+
+
+
 .right {
     grid-area: picture;
 
@@ -98,20 +125,7 @@ export default {
      align-items: center;
 }
 
-/*
-.wrapper > .left {
-    float: left;
-    width: 49.999999999%;
-    height: 40%;
-}
 
-.wrapper > .right {
-    float: right;
-    width: 49.999999999%;
-    height: 40%;
-    
-}
-*/
 img {
     width: 80%;
 }
@@ -127,11 +141,7 @@ h4 {
     color: black;
 }
 
-p {
-    font-family: "Frutiger_55_Roman";
-    font-size: 1.0em;;
-    color: black;
-}
+
 
 section {
     
