@@ -5,8 +5,8 @@
         <router-link to="/"><div id="icon"><img src="./assets/Icon180.png"> </div></router-link>
         <router-link to="/"><div>Über die App</div></router-link>
         <router-link to="/Workflow"><div>Funktionsweise</div></router-link>
-        <div>Kontakt</div>
-        <div>KURZ Gruppe</div>
+        <!--  <div>Kontakt</div> -->
+        <router-link to="/kurz"><div>KURZ Gruppe</div></router-link>
     </div>
     <img src="./assets/banner.png">
     </div>

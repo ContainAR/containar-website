@@ -4,12 +4,12 @@
 
         <div class="Functions">
             <router-link to="/"><p>Über ContainAR</p></router-link>
-            <p>Funktionen</p>
-            <p>Kontakt</p>
+            <router-link to="/workflow"><p>Funktionsweise</p></router-link>
+            <!-- <p>Kontakt</p> -->
         </div>
 
          <div class="Cooperation">
-            <p>Über KURZ</p>
+            <router-link to="/kurz"><p>Über KURZ</p></router-link>
             <a href="https://kurzgruppe.de/"><p>Die KURZ Gruppe</p></a>
             <a href="https://shop.kurz-entsorgung.de/"><p>Onlineshop</p></a>
         </div>
@@ -68,7 +68,7 @@ section div a {
     
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
 
     section {
 
