@@ -7,7 +7,7 @@
             virtuelles Modell mit und ohne Deckel zur Verfügung.
             Einen Überblick der auswählbaren Container sowie nähere
             Informationen zum jeweiligen Modell finden Sie im
-            Container-Katalog." link_image="../assets/img_container-catalogue.png"></info-right>
+            Container-Katalog." link_image="img_container-catalogue"></info-right>
   <Elem_Planungstool></Elem_Planungstool>
   <info-right teaser="Wie kommt Ihr Standortwunsch bei uns an?" headline="Die integrierte Schnittstelle" text="Durch die Fotofunktion ist es Ihnen möglich, die gewünschte
 Platzierung des Containers bildlich festzuhalten.
@@ -17,7 +17,7 @@ E-Mail an uns zu versenden. Wir ordnen die Fotos dann Ihrer
 Bestellung zu, die Sie vorher in unserem Onlineshop
 abgeschlossen haben. Pluspunkt: Wir geben die Fotos an
 unsere Fahrer weiter, sodass diese bei der Anlieferung
-genau wissen, wo der Container abgestellt werden soll." link_image="../assets/img_send-images.png"></info-right>
+genau wissen, wo der Container abgestellt werden soll." link_image="img_send-images"></info-right>
   <Workflow></Workflow>
   
   <About></About>

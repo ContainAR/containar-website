@@ -10,7 +10,7 @@
         </div>
 
         <div class="right">
-           <img v-bind:src="link_image" />
+           <img v-bind:src="getImgUrl(link_image)" />
         </div>
         
     </section>
@@ -21,13 +21,19 @@
 <script>
 export default {
     name: 'Elem_Planungstool',
+    data() {
+        return {
+            bild: '../assets/img_container-catalogue.png',
+            links: [{id: 1, uri: "../assets/img_container-catalogue.png"}, {id: 2, uri: ""}]
+        };
+    },
     props: ["teaser", "headline", "text", "link_image"],
     methods: {
-        getImage() {
-
-            console.log('Link:' + this.link_image);
-            return this.link_image;
-        }
+       getImgUrl(img_name) {
+        var images = require.context('../assets/', true, /\.png$/);
+        return images('./' + img_name + ".png");
+        //return require('../assets/'+img_name);
+  }
     }
     
 }
