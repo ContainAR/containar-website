@@ -3,7 +3,7 @@
 
 
 
-    <section>
+    <section id="Workflow">
 
     <p class="teaser_workflow">So einfach funktioniert's:</p>
 

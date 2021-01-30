@@ -3,7 +3,7 @@
     <section>
 
         <div class="Functions">
-            <p>Über ContainAR</p>
+            <router-link to="/"><p>Über ContainAR</p></router-link>
             <p>Funktionen</p>
             <p>Kontakt</p>
         </div>
@@ -15,8 +15,8 @@
         </div>
 
         <div class="Privacy">
-            <p>Impressum</p>
-            <p>Datenschutzerklärung</p>
+            <router-link to="/imprint"><p>Impressum</p></router-link>
+            <router-link to="/privacypolicy"><p>Datenschutzerklärung</p></router-link>
             
         </div>
 

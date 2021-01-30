@@ -77,6 +77,13 @@ export default {
 
 <style scoped>
 
+@import "../assets/fonts/fonts.css";
+
+section {
+
+        font-family: "Frutiger_55_Roman";
+}
+
 main .impressum {
 
     justify-content: left;
