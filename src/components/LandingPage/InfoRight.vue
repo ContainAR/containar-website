@@ -23,14 +23,13 @@ export default {
     name: 'Elem_Planungstool',
     data() {
         return {
-            bild: '../assets/img_container-catalogue.png',
-            links: [{id: 1, uri: "../assets/img_container-catalogue.png"}, {id: 2, uri: ""}]
+         
         };
     },
     props: ["teaser", "headline", "text", "link_image"],
     methods: {
        getImgUrl(img_name) {
-        var images = require.context('../assets/', true, /\.png$/);
+        var images = require.context('../../assets/', true, /\.png$/);
         return images('./' + img_name + ".png");
         //return require('../assets/'+img_name);
   }
@@ -41,7 +40,7 @@ export default {
 
 <style scoped>
 
-@import "../assets/fonts/fonts.css";
+@import "../../assets/fonts/fonts.css";
 
 #content_container {
     background-color: white !important

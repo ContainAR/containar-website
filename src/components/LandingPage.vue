@@ -8,7 +8,20 @@
             Einen Überblick der auswählbaren Container sowie nähere
             Informationen zum jeweiligen Modell finden Sie im
             Container-Katalog." link_image="img_container-catalogue"></info-right>
-  <Elem_Planungstool></Elem_Planungstool>
+
+  <info-left teaser="Woher weiß ich, ob der Container passt?" headline="Ihr verlässliches Planungstool" text="Unsere App ContainAR beruht auf der Augmented-Reality-
+            Technologie, zu Deutsch „erweiterte Realität“.
+            Dabei werden Bilder oder Videos durch zusätzliche
+            computergestützte Informationen, in unserem Fall virtuelle
+            Container in Originalgröße, ergänzt. Mithilfe der im
+            Smartphone integrierten Kamera können Sie den
+            ausgewählten Container inmitten der realen Szene abbilden.
+            Durch die typische Gestensteuerung ist es möglich, das
+            Modell zu verschieben, zu drehen und an der gewünschten
+            Stelle abzusetzen (z.B. in Ihrer Einfahrt). So überprüfen Sie,
+            ob sich der Container in Höhe, Breite und Tiefe eignet." link_image="img_planungstool"></info-left>
+  
+  
   <info-right teaser="Wie kommt Ihr Standortwunsch bei uns an?" headline="Die integrierte Schnittstelle" text="Durch die Fotofunktion ist es Ihnen möglich, die gewünschte
 Platzierung des Containers bildlich festzuhalten.
 Fotografieren Sie den Container dafür von allen vier Seiten.
@@ -28,18 +41,20 @@ genau wissen, wo der Container abgestellt werden soll." link_image="img_send-ima
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
 
-import Elem_Planungstool from '../components/elem_planungstool.vue'
+
 import Workflow from '../components/Workflow.vue'
-import InfoRight from '../components/InfoRight.vue'
+import InfoRight from '../components/LandingPage/InfoRight.vue'
+import InfoLeft from '../components/LandingPage/InfoLeft.vue'
 
 
 export default {
   name: 'App',
   components: {
       
-      Elem_Planungstool,
+      
       Workflow,
-      InfoRight
+      InfoRight,
+      InfoLeft
 
      
     }
