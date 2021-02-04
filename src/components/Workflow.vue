@@ -17,7 +17,7 @@
                 <p class="descr">
                 
                 Bestellen Sie einen Container
-                Ihrer Wahl in unserem Shop.
+                Ihrer Wahl in unserem <a style='color: rgb(239, 114, 2); text-decoration: none;  font-weight: bold; ' href='https://shop.kurz-entsorgung.de/'>Shop</a>.
                 Sind Sie sich unsicher, wie
                 groß der Container ist bzw.
                 ob er an die gewünschte Stelle
@@ -100,7 +100,7 @@ section p {
     
     padding: 1%;
     width: 100%;
-    text-align: center;
+    justify-content: center;
     display: flex;
     /* display: inline-flex; */
 }
@@ -111,6 +111,7 @@ section p {
     .steps  {
         display: flex;
         flex-direction: column;
+        
 
     }
 

@@ -5,8 +5,9 @@
         <div class="left">
             <h4> {{ teaser }}</h4>
             <h3> {{ headline }}</h3>
-            <p>{{ text }} </p>
-             <p></p>
+            
+            <p v-html="text"> </p>
+         
         </div>
 
         <div class="right">
@@ -55,11 +56,14 @@ export default {
 
 }
 
+
 p {
     font-family: "Frutiger_55_Roman";
     font-size: 1.0em;
     color: black;
 }
+
+
 
 @media screen and (max-width:500px) {
 
@@ -86,7 +90,6 @@ p {
     grid-area: text;
 
     
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,9 +144,5 @@ h4 {
 }
 
 
-
-section {
-    
-}
 
 </style>
