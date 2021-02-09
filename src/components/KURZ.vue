@@ -24,12 +24,15 @@ export default {
 
 .kurz {
 
-
-  font-family: "Frutiger_55_Roman";
+  text-align: left;
+  font-family: "Frutiger_65_Bold";
+   margin-left: 2%;
 }
 
 .kurz .intro {
     font-family: "Frutiger_65_Bold";
+    font-size: larger;
+     color: rgb(239, 114, 2);
 }
 
 </style>

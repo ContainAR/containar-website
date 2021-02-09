@@ -9,7 +9,7 @@
 
     <h3>Verantwortliche Stelle</h3>
     <p>Verantwortliche Stelle ist:</p>
-    <p>KURZ Entsorgung GmbH<br />Mühläckerstraße 26<br />71642 Ludwigsburg</p>
+    <p>KURZ Holding GmbH<br> Mühläckerstraße 26<br> 71642 Ludwigsburg</p>
 
     <h3>Gegenstand des Datenschutzes</h3>
     <p>
@@ -68,11 +68,11 @@
     <p>
       Wir verwenden die Daten ausschließlich im Zusammenhang mit dem Betrieb der
       Website&nbsp;<a
-        href="http://www.kurz.entsorgung.de/"
+        href="http://www.kurz-entsorgung.de/"
         title="Öffnet externen Link in neuem Fenster"
         target="_blank"
         class="external-link-new-window"
-        >www.kurz.entsorgung.de</a
+        >www.kurz-entsorgung.de</a
       >. Wir sind berechtigt, die genannten Daten zu den genannten Zwecken zu
       erheben, zu verarbeiten, zu speichern sowie zu eigenen Zwecken zu nutzen.
       Der Nutzer erteilt hierzu ausdrücklich seine Zustimmung. Wir sind
@@ -194,7 +194,17 @@ export default {};
 @import "../assets/fonts/fonts.css";
 
 section {
-  font-family: "Frutiger_55_Roman";
+  font-family: "Frutiger_65_Bold";
+  text-align: left;
+  margin-left: 2%;
+}
+
+h2 {
+  text-transform:  uppercase;
+}
+
+h2, h3 {
+  color: rgb(239, 114, 2);;
 }
 
 main .impressum {
@@ -204,5 +214,12 @@ main .impressum {
 
 main .impressum .intro {
   font-size: 1.5em;
+}
+
+/* Andere Anzeige der Links */
+a {
+    text-decoration: none;
+    color: rgb(239, 114, 2);
+    font-weight: bold;
 }
 </style>

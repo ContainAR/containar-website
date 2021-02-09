@@ -92,7 +92,7 @@ export default {
  */
 #banner div a[href="#/"] {
 
-  background-color: rgb(239, 114, 2);;
+  
 
 }
 

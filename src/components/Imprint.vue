@@ -44,7 +44,25 @@ export default {
 @import "../assets/fonts/fonts.css";
 
 section {
-    font-family: "Frutiger_55_Roman";
+    font-family: "Frutiger_65_Bold";
+     text-align: left;
+  margin-left: 2%;
 }
+
+h2 {
+  text-transform:  uppercase;
+}
+
+h2, h3 {
+  color: rgb(239, 114, 2);
+}
+
+/* Andere Anzeige der Links */
+a {
+    text-decoration: none;
+    color: rgb(239, 114, 2);
+    font-weight: bold;
+}
+
 
 </style>
