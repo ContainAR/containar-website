@@ -2,7 +2,7 @@
 <div id="content_container">
     <section class="wrapper" id="wrapper">
     
-        <div class="left">
+        <div class="text">
             <h4> {{ teaser }}</h4>
             <h3> {{ headline }}</h3>
             
@@ -10,7 +10,7 @@
          
         </div>
 
-        <div class="right">
+        <div class="image">
            <img v-bind:src="getImgUrl(link_image)" />
         </div>
         
@@ -58,9 +58,10 @@ export default {
 
 
 p {
-    font-family: "Frutiger_55_Roman";
+    font-family: "Frutiger_65_Bold";
     font-size: 1.0em;
     color: black;
+    text-align: left;
 }
 
 
@@ -85,7 +86,7 @@ p {
 }
 
 /* Textbereich */
-.left {
+.text {
     
     grid-area: text;
 
@@ -94,6 +95,8 @@ p {
     flex-direction: column;
     justify-content: center;
      align-items: center;
+     text-align: left;
+     margin-right: 10%;
 
     
     
@@ -101,45 +104,55 @@ p {
 
 @media screen and (min-width:1250px) { 
 
-    .left h4 {
+    .text h4 {
         font-size: 1.8em;
     }
 
-    .left h3 {
+    .text h3 {
 
           font-size: 2em;
     }
 
-    .left p {
+    .text p {
         font-size: 1.8em;
     }
 
 }
 
 
+/* Bildbereich */
+.image {
 
-.right {
+
     grid-area: picture;
-
-       display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
      align-items: center;
+
+     
 }
 
 
 img {
-    width: 80%;
+    width: 65%;
 }
 
 h3 {
+    margin: 0;
+    margin-top: 2%;
     font-family: "Frutiger_65_Bold";
     color: rgb(239, 114, 2)
+    
     
 }
 
 h4 {
-    font-family: "Frutiger_55_Roman";
+    
+    margin: 0;
+    
+
+    font-family: "Frutiger_65_Bold";
     color: black;
 }
 

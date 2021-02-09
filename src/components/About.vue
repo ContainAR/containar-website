@@ -10,7 +10,7 @@
 
          <div class="Cooperation">
             <router-link to="/kurz"><p>Über KURZ</p></router-link>
-            <a href="https://kurzgruppe.de/"><p>Die KURZ Gruppe</p></a>
+            <a target="_blank" href="https://kurzgruppe.de/"><p>Die KURZ Gruppe</p></a>
             <a href="https://shop.kurz-entsorgung.de/"><p>Onlineshop</p></a>
         </div>
 
