@@ -96,7 +96,7 @@ h3 {
 }
 
 h4 {
-  margin: 0;
+  padding-top: 5%;
 
   font-family: "Frutiger_65_Bold";
   color: black;
@@ -112,7 +112,7 @@ h4 {
 
   h4 {
 
-      padding-top: 5%;
+
       text-align: center;
   }
 
