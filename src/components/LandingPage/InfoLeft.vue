@@ -51,14 +51,7 @@ p {
   text-align: left;
 }
 
-@media screen and (max-width: 500px) {
-  .wrapper {
-    display: grid;
-    grid-template-areas:
-      "text"
-      "picture";
-  }
-}
+
 
 .wrapper div {
   background-color: rgb(218, 218, 218);
@@ -66,14 +59,67 @@ p {
 
 /* Textbereich */
 .text {
-
-margin-left: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   grid-area: text;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+
+
+/* Bildbereich */
+.image {
+  grid-area: picture;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 65%;
+}
+
+h3 {
+  margin: 0;
+  margin-top: 2%;
+  font-family: "Frutiger_65_Bold";
+  color: rgb(239, 114, 2);
+}
+
+h4 {
+  margin: 0;
+  font-family: "Frutiger_65_Bold";
+  color: black;
+}
+
+section {
+}
+
+
+@media screen and (max-width: 500px) {
+  
+  .wrapper {
+    display: grid;
+    grid-template-areas:
+      "text"
+      "picture";
+  }
+
+    h4 {
+
+      padding-top: 5%;
+      text-align: center;
+  }
+
+  h3 {
+      padding-top: 3%;
+  }
+}
+
 
 @media screen and (min-width: 1250px) {
   .text h4 {
@@ -87,35 +133,5 @@ margin-left: 10%;
   .text p {
     font-size: 1.8em;
   }
-}
-
-/* Bildbereich */
-.image {
-
-  grid-area: picture;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-img {
-  width: 65%;
-}
-
-h3 {
-      margin: 0;
-    margin-top: 2%;
-  font-family: "Frutiger_65_Bold";
-  color: rgb(239, 114, 2);
-}
-
-h4 {
-    margin: 0;
-  font-family: "Frutiger_65_Bold";
-  color: black;
-}
-
-section {
 }
 </style>
