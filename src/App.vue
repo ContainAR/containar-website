@@ -6,7 +6,7 @@
           <div id="icon"><img src="./assets/Icon180.png" /></div>
       </router-link>
       <router-link to="/"><div>Über die App</div></router-link>
-      <router-link to="/Workflow"><div>Funktionsweise</div></router-link>
+      <a href="#WF" v-scroll-to="'#Workflow'"><div>Funktionsweise</div></a>
       <!--  <div>Kontakt</div> -->
       <a href="https://www.kurzgruppe.de/" target="_blank"><div>KURZ Gruppe</div></a>
     </div>

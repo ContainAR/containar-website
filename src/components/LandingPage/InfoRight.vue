@@ -43,6 +43,9 @@ export default {
 .wrapper {
   display: grid;
   grid-template-areas: "picture text";
+  width: 1300px;
+  margin: auto; 
+
 }
 
 p {
@@ -102,8 +105,19 @@ h4 {
   color: black;
 }
 
+@media screen and (max-width: 1300px) {
+
+  .wrapper {
+
+    width: 100%;
+
+  }
+
+}
+
 @media screen and (max-width: 500px) {
   .wrapper {
+  width: 100%;
     display: grid;
     grid-template-areas:
       "text"

@@ -80,6 +80,9 @@ section p {
   width: 100%;
   justify-content: center;
   display: flex;
+
+  width: 1300px;
+  margin: auto; 
   /* display: inline-flex; */
 }
 
@@ -130,39 +133,16 @@ section p {
   padding: 3%;
   color: black;
   font-family: "Frutiger_65_Bold";
-  font-size: 1.3em;
+  font-size: 20px;
 }
 
-@media screen and (min-width: 1800px) {
-  /* Überschrift für den Workflow */
-  .teaser_workflow {
-    font-size: 2.5em;
+
+@media screen and (max-width: 1300px) {
+
+  .steps {
+    width: 100%;
   }
 
-  /* Vergrößern der einzelnen Kästchen */
-  .steps div {
-    height: 450px;
-    width: 600px;
-  }
-
-  /* Orangener Würfel */
-  .steps div div {
-    width: 50px;
-    height: 50px;
-  }
-
-  /* Text für die Zahlen */
-  .steps div div .number {
-    font-size: 1.5em;
-  }
-
-  /* Beschreibungstext */
-  .steps div .descr {
-    font-size: 2em;
-  }
-}
-
-@media screen and (max-width: 1250px) {
   /* Überschrift für den Workflow */
   .teaser_workflow {
     font-size: 2em;
@@ -177,12 +157,20 @@ section p {
   .steps div div .number {
     font-size: 1em;
   }
+
+  /* Text für die Inhalt */
+.steps div .descr {
+
+  font-size: 18px;
+
+}
 }
 
 @media screen and (max-width: 800px) {
   .steps {
     display: flex;
     flex-direction: column;
+    
   }
 
   .steps div {
