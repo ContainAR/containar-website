@@ -36,7 +36,7 @@ export default {
 @import "../../assets/fonts/fonts.css";
 
 #content_container {
-  background-color: white !important;
+  background-color: white;
 }
 
 /* Container Klasse */
@@ -44,38 +44,33 @@ export default {
   display: grid;
   grid-template-areas: "picture text";
   width: 1300px;
-  margin: auto; 
-
+  margin: auto;
 }
 
 p {
   font-family: "Frutiger_65_Bold";
-  font-size: 1em;
+  font-size: 20px;
   color: black;
   text-align: left;
 }
 
-
-
 .wrapper div {
+  /* weißer Hintergrund */
   background-color: white;
 }
 
 /* Textbereich */
 .text {
-  grid-area: text;
+  margin-right: 10%;
+  margin-left: 10%;
 
+  grid-area: text;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: left;
-
-  margin-right: 10%;
-  margin-left: 10%;
 }
-
-
 
 /* Bildbereich */
 .image {
@@ -93,59 +88,46 @@ img {
 h3 {
   margin: 0;
   margin-top: 2%;
-
+  font-size: 1.8em;
   font-family: "Frutiger_65_Bold";
   color: rgb(239, 114, 2);
 }
 
 h4 {
   padding-top: 5%;
-
+  font-size: 20px;
   font-family: "Frutiger_65_Bold";
   color: black;
 }
 
 @media screen and (max-width: 1300px) {
-
   .wrapper {
-
     width: 100%;
-
   }
-
 }
 
 @media screen and (max-width: 500px) {
   .wrapper {
-  width: 100%;
+    width: 100%;
     display: grid;
     grid-template-areas:
       "text"
       "picture";
   }
 
+  p {
+    font-size: 1em;
+  }
+
   h4 {
-
-
-      text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
   }
 
   h3 {
-      padding-top: 3%;
-  }
-}
-
-@media screen and (min-width: 1250px) {
-  .text h4 {
-    font-size: 1.8em;
-  }
-
-  .text h3 {
-    font-size: 2em;
-  }
-
-  .text p {
-    font-size: 1.8em;
+    text-align: center;
+    padding-top: 3%;
   }
 }
 </style>
