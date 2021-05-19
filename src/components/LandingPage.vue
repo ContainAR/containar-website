@@ -3,6 +3,8 @@
   <!--   <Banner></Banner> -->
 
   <!-- Container Katalog -->
+
+  <Video></Video>
   <info-right
     teaser="Welche Container können ausgewählt werden?"
     headline="Der Container-Katalog"
@@ -54,7 +56,7 @@ genau wissen, wo der Container abgestellt werden soll."
 import Workflow from "../components/Workflow.vue";
 import InfoRight from "../components/LandingPage/InfoRight.vue";
 import InfoLeft from "../components/LandingPage/InfoLeft.vue";
-
+import Video from "../components/Video.vue";
 
 export default {
   name: "App",
@@ -62,6 +64,7 @@ export default {
     Workflow,
     InfoRight,
     InfoLeft,
+    Video
   },
 };
 </script>
