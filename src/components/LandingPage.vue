@@ -55,6 +55,7 @@ import Workflow from "../components/Workflow.vue";
 import InfoRight from "../components/LandingPage/InfoRight.vue";
 import InfoLeft from "../components/LandingPage/InfoLeft.vue";
 
+
 export default {
   name: "App",
   components: {
