@@ -7,7 +7,7 @@
 <div id="video_div">
 
 
-<video src="../assets/containar_video.mp4" controls poster="../assets/car_video_posterbild.png">
+<video src="../assets/containar_video.mp4"  controls poster="../assets/car_video_posterbild.png">
 Dies Video kann in Ihrem Browser nicht wiedergegeben werden.<br>
 Eine Download-Version steht unter <a href="https://containar.app/media/containar_video.b01d6b90.mp4">diesem Link</a> zum Abruf bereit. 
 </video>
