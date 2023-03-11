@@ -1,5 +1,6 @@
 <template>
   <section>
+
     <div class="Functions">
       <router-link to="/"><p>Über ContainAR</p></router-link>
       <router-link to="/workflow"><p>Funktionsweise</p></router-link>
@@ -30,6 +31,7 @@
       ></a>
       <p></p>
     </div>
+
   </section>
 </template>
 
@@ -49,6 +51,7 @@ section {
 
   font-family: "Frutiger_65_Bold";
 
+
   display: grid;
   grid-template-areas: "Functions Corporation Privacy Social Store";
 }
@@ -64,7 +67,7 @@ section div {
 section div a {
   text-decoration: none;
   color: white;
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 
 section div a p {
@@ -72,10 +75,17 @@ section div a p {
     margin-bottom: 6px;
 }
 
+section .Store a p {
+  width: 10px !important;
+  height: 2em !important;
+}
+
 div a p span {
     margin-left: 10px;
     margin-bottom: 25px;
 }
+
+
 
 .Functions {
   margin-left: 9px;
@@ -123,7 +133,7 @@ div a p span {
 section div a {
   text-decoration: none;
   color: white;
-  font-size: 1.0em;
+  font-size: 1.1em;
 }
 
 
