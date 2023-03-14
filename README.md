@@ -22,3 +22,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+### In case of
+In case of changeing setting 
+``` HOST="localhost" ```
+``` source ~/.bash_profile ```

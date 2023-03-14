@@ -21,8 +21,19 @@
     </div>
 
     <div class="Social">
-      <a href="https://www.facebook.com/ContainAR"><p><img src="../assets/facebook_white.png" height="30" /><span>Like uns auf Facebook</span></p></a>
-      <a href="https://www.instagram.com/containar.app/"><p><img src="../assets/instagram_white.png" height="30" /><span>ContainAR bei Instagram</span></p></a>
+      <a href="https://www.facebook.com/ContainAR">
+        <div>
+          <img  src="../assets/facebook_white.png" height="30" />
+          <span>Like uns auf Facebook</span>
+        </div>
+        </a>
+      
+      <a href="https://www.instagram.com/containar.app/">
+        <div>
+          <img src="../assets/instagram_white.png" height="30" />
+          <span>ContainAR bei Instagram</span>
+        </div>
+      </a>
     </div>
 
     <div class="Store">
@@ -80,6 +91,33 @@ section .Store a p {
   height: 2em !important;
 }
 
+
+section .Social a div {
+  
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+
+
+section .Social a div img {
+
+  width: 30px;
+  height: 30px;
+  
+}
+
+
+section .Social a div span {
+
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+
+
+
 div a p span {
     margin-left: 10px;
     margin-bottom: 25px;
@@ -128,6 +166,13 @@ div a p span {
     display: flex;
     align-items: center;
   }
+
+
+section .Social a div span {
+
+  margin-top: 0px;
+  
+}
 
 
 section div a {
