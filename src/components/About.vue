@@ -4,6 +4,9 @@
     <div class="Functions">
       <router-link to="/"><p>Über ContainAR</p></router-link>
       <router-link to="/workflow"><p>Funktionsweise</p></router-link>
+      
+      <router-link to="/workflow"><p>Flyer</p></router-link>
+      <router-link to="/workflow"><p>Kontakt</p></router-link>
       <!-- <p>Kontakt</p> -->
     </div>
 
@@ -24,7 +27,7 @@
       <a href="https://www.facebook.com/ContainAR">
         <div>
           <img  src="../assets/facebook_white.png" height="30" />
-          <span>Like uns auf Facebook</span>
+          <span>ContainAR auf Facebook</span>
         </div>
         </a>
       
@@ -37,10 +40,11 @@
     </div>
 
     <div class="Store">
-      <a href="https://apps.apple.com/de/app/containar/id1503508901"
-        ><p><img src="../assets/Apple_App_Store.svg" /></p
-      ></a>
-      <p></p>
+      <a href="https://apps.apple.com/de/app/containar/id1503508901">
+        <p>
+          <img src="../assets/Apple_App_Store.svg" />
+        </p>
+      </a>
     </div>
 
   </section>
@@ -86,9 +90,9 @@ section div a p {
     margin-bottom: 6px;
 }
 
-section .Store a p {
-  width: 10px !important;
-  height: 2em !important;
+section .Store a p img {
+  width: 180px;
+  
 }
 
 

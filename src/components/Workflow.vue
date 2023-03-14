@@ -20,7 +20,7 @@
             >Shop</a
           >. Sind Sie sich unsicher, wie groß der Container ist bzw. ob er an
           die gewünschte Stelle passt? Dann prüfen Sie das schnell und einfach
-          ohne lästiges Messen mit unserer App ContainAR.
+          ohne lästiges Messen mit unserer ContainAR App.
         </p>
       </div>
       <div class="element">
@@ -28,7 +28,7 @@
           <p class="number">2</p>
         </div>
         <p class="descr">
-          Wählen Sie dafür den bestellten Container aus und platzieren ihn nach
+          Wählen Sie den bestellten Container in der App aus und platzieren ihn nach
           Ihren Vorstellungen. Fotografieren Sie den virtuellen
           Entsorgungscontainer von allen vier Seiten. Beachten Sie, dass sowohl
           der Container als auch der Standort klar erkennbar sein sollte.
@@ -39,8 +39,8 @@
           <p class="number">3</p>
         </div>
         <p class="descr">
-          Senden Sie die Bilder automatisch per E-Mail an uns. Bitte fügen Sie
-          der E-Mail Ihre Bestell- oder Kundennummer bei, damit wir die Bilder
+          Senden Sie die Bilder per integrierter Schnittstelle an uns. Bitte fügen Sie
+          der E-Mail Ihre Bestell- oder Kundennummer bei, damit wir Ihre Bilder
           korrekt zuordnen können.
         </p>
       </div>
@@ -113,11 +113,11 @@ section p {
   justify-content: center;
   align-content: center;
   background-color: rgb(239, 114, 2);
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   transform: rotate(20deg);
   color: white;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 /* Text für die Zahlen */
@@ -161,7 +161,7 @@ section p {
   /* Text für die Inhalt */
 .steps div .descr {
 
-  font-size: 18px;
+  font-size: 1em;
 
 }
 }
@@ -180,7 +180,7 @@ section p {
 
   /* Beschreibungstext */
   .steps div .descr {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 

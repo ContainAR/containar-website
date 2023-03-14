@@ -19,7 +19,7 @@
   <info-left
     teaser="Woher weiß ich, ob der Container passt?"
     headline="Ihr verlässliches Planungstool"
-    text="Unsere App ContainAR beruht auf der Augmented-Reality-
+    text="Unsere ContainAR App beruht auf der Augmented-Reality-
             Technologie, zu Deutsch „erweiterte Realität“.
             Dabei werden Bilder oder Videos durch zusätzliche
             computergestützte Informationen, in unserem Fall virtuelle
@@ -28,7 +28,7 @@
             ausgewählten Container inmitten der realen Szene abbilden.
             Durch die typische Gestensteuerung ist es möglich, das
             Modell zu verschieben, zu drehen und an der gewünschten
-            Stelle abzusetzen (z.B. in Ihrer Einfahrt). So überprüfen Sie,
+            Stelle abzusetzen (z. B. in Ihrer Einfahrt). So überprüfen Sie,
             ob sich der Container in Höhe, Breite und Tiefe eignet."
     link_image="img_planungstool"
   ></info-left>
