@@ -87,14 +87,14 @@ img {
 
 h3 {
   margin: 0;
-  margin-top: 2%;
+  margin-top: 0%;
   font-size: 1.8em;
   font-family: "Frutiger_65_Bold";
   color: rgb(239, 114, 2);
 }
 
 h4 {
-  padding-top: 5%;
+  padding-top: 0%;
   font-size: 20px;
   font-family: "Frutiger_65_Bold";
   color: black;

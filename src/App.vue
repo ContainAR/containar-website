@@ -1,6 +1,10 @@
 <template>
   <!--  Search Console of Google -->
   <meta name="google-site-verification" content="h5qMz_eEUa2mYQa9LYN6OdN_-a-hfIxTf-BoanlIw6M" />
+  <div id="orange-bar">
+
+  </div>
+
 
   <div id="banner">
     <div>
@@ -45,6 +49,13 @@ export default {
   color: #2c3e50;
 }
 
+#orange-bar {
+
+
+  height: 30px;
+  background-color: rgb(239, 114, 2);;
+
+}
 
 
 #banner {

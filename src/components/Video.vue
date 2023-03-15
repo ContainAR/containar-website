@@ -2,7 +2,7 @@
 
 <div id="content_container">
 
-<h2>Unser neues Video zu ContainAR</h2>
+<h2>Die ContainAR App in einem Video erklärt</h2>
 
 <div id="video_div">
 

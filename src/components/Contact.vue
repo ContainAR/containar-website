@@ -2,20 +2,20 @@
 
     <section>
 
-        <form onsubmit="return sendSubmitButton()">
+        <form @onclick="sendSubmitButton">
             <div>
 
                 <div>
                     <label for="inp:name">Name</label>
-                    <input label="inp:name" type="text" placeholder="Namen eingeben">
+                    <input  v-model="username" label="inp:name" type="text" placeholder="Namen eingeben">
                 </div>
                 <div>
                     <label for="inp:email">E-Mail-Adresse</label>
-                    <input label="inp:email" type="text" placeholder="E-Mail-Adresse eingeben">
+                    <input label="inp:email" type="email" placeholder="E-Mail-Adresse eingeben">
                 </div>
                 <div>
                     <label for="inp:telnummer">Telefonnummer</label>
-                    <input label="inp:telnummer" type="text" placeholder="Telefonnummer eingeben">
+                    <input label="inp:telnummer" type="tel" placeholder="Telefonnummer eingeben">
                 </div>
                 <div id="message">
                     <label for="inp:message">Nachricht</label>
@@ -46,6 +46,7 @@ export default {
 
         sendSubmitButton(event) {
 
+            console.log(this.username)
             alert('Form submitted' + event.target.name)
             return true;
 
@@ -67,7 +68,8 @@ section {
 
     font-family: "Frutiger_65_Bold";
     font-size: 1.3em;
-    background-color: rgb(209, 209, 209);
+    background-color: white; 
+    /* Former Color:      rgb(209, 209, 209); */
     color: black;
     padding: 30px; 
     
@@ -89,10 +91,7 @@ section div div {
                     "btn btn";
 
 
-
 }
-
-
 
 
 
@@ -114,17 +113,23 @@ section div div input {
     grid-area: inp;
     height: 40px;
     width: 800px;
-    border: none;
+    
 
 }
 
+
+section div div input::placeholder {
+
+    font-size: 1.3em;
+
+}
 
 section div #message input {
 
     grid-area: inp;
     height: 120px;
     width: 800px;
-    border: none;
+    
 
 }
 
@@ -142,18 +147,59 @@ section #submit input {
     background-color:rgb(239, 114, 2);
     color: white;
     width: 150px;
+    border-color: rgb(239, 114, 2);
 
     
 }
 
 section #submit input:active {
     
-    
     background-color: white;
     color: rgb(239, 114, 2);
     
-
     
+}
+
+
+@media screen and (max-width: 1300px) {
+
+
+    section div div input {
+
+        width: 500px;
+            
+    }
+
+
+    section div #message input {
+
+        width: 500px;
+            
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    section div div input {
+
+        width: 200px;
+            
+    }
+
+
+    section div #message input {
+
+        width: 200px;
+            
+    }
+
+
+
 }
 
 
