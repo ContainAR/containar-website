@@ -44,7 +44,7 @@ export default {
 
 #video_div video {
 
-    width: 25%;
+    width: 50%;
     
 }
 
@@ -58,7 +58,7 @@ export default {
 
     #video_div video {
 
-        width: 90%;
+        width: 70%;
         
 
     }

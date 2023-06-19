@@ -44,7 +44,7 @@ export default {
 .wrapper {
   display: grid;
   grid-template-areas: "text picture";
-  width: 90%;
+  width: 60%;
   margin: auto;
 }
 
@@ -102,7 +102,7 @@ h4 {
 
 @media screen and (max-width: 1300px) {
   .wrapper {
-    width: 90%;
+    width: 80%;
   }
 }
 

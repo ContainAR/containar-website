@@ -43,7 +43,7 @@ export default {
 .wrapper {
   display: grid;
   grid-template-areas: "picture text";
-  width: 90%;
+  width: 60%;
   margin: auto;
 }
 

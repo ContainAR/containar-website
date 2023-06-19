@@ -2,11 +2,6 @@
   <!--  Search Console of Google -->
   <meta name="google-site-verification" content="h5qMz_eEUa2mYQa9LYN6OdN_-a-hfIxTf-BoanlIw6M" />
   <meta name="apple-itunes-app" content="app-id=id1503508901, app-argument=https://apps.apple.com/us/app/containar/id1503508901">
-  
-  
-  <!-- <div id="orange-bar"> </div> -->
-
-  
 
   <div id="sorounding">
 
