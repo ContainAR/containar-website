@@ -44,9 +44,8 @@ export default {
 
 #video_div video {
 
-    width: 800px;
-    height: 300;
-
+    width: 25%;
+    
 }
 
 
@@ -59,8 +58,8 @@ export default {
 
     #video_div video {
 
-        width: 600px;
-        height: 300;
+        width: 90%;
+        
 
     }
 
@@ -70,8 +69,7 @@ export default {
 
     #video_div video {
 
-        width: 400px;
-        height: 300;
+        width: 90%;
 
     }
 

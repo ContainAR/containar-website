@@ -89,7 +89,7 @@ section p {
   display: flex;
   margin: auto;
 
-  width: 1300px;
+  width: 90%;
   
   /* display: inline-flex; */
 }
@@ -136,6 +136,7 @@ section p {
   transform: rotate(-20deg);
   font-size: 1em;
   padding-top: 60%;
+  padding-right: 30%;
 }
 
 /* Text für die Inhalt */

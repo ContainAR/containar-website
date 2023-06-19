@@ -72,7 +72,6 @@ export default {
 
 #content {
   
-  
   padding-top: 2%;
   padding-right: 5%;
   padding-left: 5%;
@@ -147,8 +146,28 @@ export default {
  */
 #banner div a[href="#/"] {
 
+}
+
+@media screen and (max-width: 1100px) {
   
+  #content {
+    
+    padding-top: 5%;
+
+  }
+
 
 }
+
+@media screen and (max-width: 800px) {
+
+  #content {
+    
+    padding-top: 5%;
+
+  }
+
+}
+
 
 </style>

@@ -1,4 +1,6 @@
 <template>
+
+
   <div id="content_container">
     <section class="wrapper" id="wrapper">
       <div class="text">
@@ -42,7 +44,7 @@ export default {
 .wrapper {
   display: grid;
   grid-template-areas: "text picture";
-  width: 1300px;
+  width: 90%;
   margin: auto;
 }
 
@@ -100,7 +102,7 @@ h4 {
 
 @media screen and (max-width: 1300px) {
   .wrapper {
-    width: 100%;
+    width: 90%;
   }
 }
 
