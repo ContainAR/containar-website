@@ -102,7 +102,7 @@ h4 {
 
 @media screen and (max-width: 1300px) {
   .wrapper {
-    width: 80%;
+    width: 90%;
   }
 }
 
