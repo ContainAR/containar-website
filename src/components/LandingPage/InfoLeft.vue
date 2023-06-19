@@ -100,9 +100,9 @@ h4 {
   color: black;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .wrapper {
-    width: 90%;
+    width: 100%;
   }
 }
 
