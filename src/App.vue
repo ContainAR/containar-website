@@ -51,7 +51,7 @@ export default {
 
 #orange-bar {
 
-
+  
   height: 30px;
   background-color: rgb(239, 114, 2);;
 
