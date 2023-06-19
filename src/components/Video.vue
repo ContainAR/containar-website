@@ -38,6 +38,7 @@ export default {
 #content_container {
     padding-top: 2em;
     padding-bottom: 4em;
+    background: white;
 }
 
 

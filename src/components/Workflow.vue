@@ -58,16 +58,23 @@ export default {
 <style scoped>
 @import "../assets/fonts/fonts.css";
 
+
+
 section {
+  border-radius: 0px 0px 50px 50px;
   background-color: rgb(218, 218, 218);
+  
 }
 
 /* Überschrift: So einfach funktionierts */
 section p {
+
   align: left;
   color: rgb(239, 114, 2);
   font-family: "Frutiger_65_Bold";
   font-size: 1.1em;
+  margin-top: 0%;
+  
   padding-top: 2%;
 }
 
@@ -80,9 +87,10 @@ section p {
   width: 100%;
   justify-content: center;
   display: flex;
+  margin: auto;
 
   width: 1300px;
-  margin: auto; 
+  
   /* display: inline-flex; */
 }
 
@@ -95,7 +103,8 @@ section p {
   align-self: center;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
+  margin-top: 1%;
 
   height: 350px;
   width: 500px;
@@ -126,6 +135,7 @@ section p {
   font-family: "Frutiger_65_Bold";
   transform: rotate(-20deg);
   font-size: 1em;
+  padding-top: 60%;
 }
 
 /* Text für die Inhalt */

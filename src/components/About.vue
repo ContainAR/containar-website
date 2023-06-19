@@ -58,7 +58,7 @@ export default {};
 @import "../assets/fonts/fonts.css";
 
 section {
-  padding: 5px;
+  padding: 2%;
   background-color: rgb(239, 114, 2);
   color: white;
 

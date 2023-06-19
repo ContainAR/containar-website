@@ -36,7 +36,7 @@
   <info-right
     teaser="Wie kommt Ihr Standortwunsch bei uns an?"
     headline="Die integrierte Schnittstelle"
-    text="Durch die Fotofunktion ist es Ihnen möglich, die gewünschte
+    text="Durch die Fotofunktion ist es möglich, die gewünschte
 Platzierung des Containers bildlich festzuhalten.
 Fotografieren Sie den Container dafür von allen vier Seiten.
 ContainAR ermöglicht es Ihnen, die Bilder im Anschluss per

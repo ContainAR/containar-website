@@ -1,27 +1,46 @@
 <template>
   <!--  Search Console of Google -->
   <meta name="google-site-verification" content="h5qMz_eEUa2mYQa9LYN6OdN_-a-hfIxTf-BoanlIw6M" />
+  <meta name="apple-itunes-app" content="app-id=id1503508901, app-argument=https://apps.apple.com/us/app/containar/id1503508901">
+  
+  
   <!-- <div id="orange-bar"> </div> -->
 
   
 
+  <div id="sorounding">
 
-  <div id="banner">
-    <div>
-      <router-link to="/">
-          <div id="icon"><img src="./assets/Icon180.png" /></div>
-      </router-link>
-      <router-link to="/"><div>Über die App</div></router-link>
-      <a href="#WF" v-scroll-to="'#Workflow'"><div>Funktionsweise</div></a>
-      <!--  <div>Kontakt</div> -->
-      <a href="https://www.kurzgruppe.de/" target="_blank"><div>KURZ Gruppe</div></a>
-    </div>
-    <img id="banner_image" src="./assets/banner.png" />
+  
+    <div id="content">
+
+      <div id="banner">
+        
+          <div>
+          
+            <router-link to="/">
+                <div id="icon"><img src="./assets/Icon180.png" /></div>
+            </router-link>
+            <router-link to="/"><div>Über die App</div></router-link>
+            <a href="#WF" v-scroll-to="'#Workflow'"><div>Funktionsweise</div></a>
+            <!--  <div>Kontakt</div> -->
+            <a href="https://www.kurzgruppe.de/" target="_blank"><div>KURZ Gruppe</div></a>
+          </div>
+          
+          <img id="banner_image" src="./assets/banner.png" />
+
+      </div>
+
+      <main>
+        <router-view></router-view>
+      </main>
+
+      <About></About>
+      
   </div>
 
-  <main><router-view></router-view></main>
+</div>
 
-  <About></About>
+
 </template>
 
 <script>
@@ -42,11 +61,31 @@ export default {
 
 @import "./assets/fonts/fonts.css";
 
+#sorounding {
+
+  background-color: rgb(239, 114, 2);
+  margin: 0;
+  align-content: center;
+  justify-content: center;
+
+}
+
+#content {
+  
+  
+  padding-top: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  width: 90%
+}
+
 #app {
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
 
 #orange-bar {
@@ -59,7 +98,10 @@ export default {
 
 
 #banner {
+
+  border-radius: 50px 50px 0px 0px;
   font-family: "Frutiger_65_Bold", sans-serif;
+  background: white;
   
 
 }
