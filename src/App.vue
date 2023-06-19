@@ -1,9 +1,9 @@
 <template>
   <!--  Search Console of Google -->
   <meta name="google-site-verification" content="h5qMz_eEUa2mYQa9LYN6OdN_-a-hfIxTf-BoanlIw6M" />
-  <div id="orange-bar">
+  <!-- <div id="orange-bar"> </div> -->
 
-  </div>
+  
 
 
   <div id="banner">

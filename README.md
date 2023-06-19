@@ -106,7 +106,7 @@ sudo cp -a /home/klbadm/git/vue-containar/dist/ . /var/www/containar
 ```
 
 
-SKRIPT
+#### Script on server
 
 ``` 
 sudo service apache2 stop 
@@ -119,4 +119,10 @@ sudo cp -a /home/klbadm/git/vue-containar/dist/ /var/www/containar
 ```
 ```
 sudo service apache2 start 
+```
+
+#### Script on dev machine
+
+```
+HOST="localhost"  
 ```

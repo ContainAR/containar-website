@@ -12,6 +12,7 @@ import NotFound from "../components/NotFound.vue";
 const routes = [
     {path: "/", component: LandingPage},
     {path: "/imprint", component: Impress},
+    {path: "/flyer", component: Impress},
     {path: "/contact", component: Contact},
     {path: "/privacypolicy", component: PrivacyPolicy},
     {path: "/workflow", component: Workflow},

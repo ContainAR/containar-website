@@ -5,16 +5,14 @@
       <router-link to="/"><p>Über ContainAR</p></router-link>
       <router-link to="/workflow"><p>Funktionsweise</p></router-link>
       
-      <router-link to="/workflow"><p>Flyer</p></router-link>
-      <router-link to="/workflow"><p>Kontakt</p></router-link>
+      <a href="FlyerApp.pdf"><p>Flyer</p></a>
+      <!-- <router-link to="/workflow"><p>Kontakt</p></router-link> -->
       <!-- <p>Kontakt</p> -->
     </div>
 
     <div class="Cooperation">
       <router-link to="/kurz"><p>Über KURZ</p></router-link>
-      <a target="_blank" href="https://kurzgruppe.de/"
-        ><p>Die KURZ Gruppe</p></a
-      >
+      <a target="_blank" href="https://kurzgruppe.de/"><p>Die KURZ Gruppe</p></a>
       <a href="https://shop.kurz-entsorgung.de/"><p>Onlineshop</p></a>
     </div>
 

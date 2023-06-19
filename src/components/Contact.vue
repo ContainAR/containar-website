@@ -87,6 +87,7 @@ section {
 section div div {
     
     display: grid;
+    border-color: white;
     grid-template: "txt inp"
                     "btn btn";
 
