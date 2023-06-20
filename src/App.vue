@@ -1,10 +1,10 @@
 <template>
   <!--  Search Console of Google -->
   <meta name="google-site-verification" content="h5qMz_eEUa2mYQa9LYN6OdN_-a-hfIxTf-BoanlIw6M" />
-  <meta name="apple-itunes-app" content="app-id=id1503508901, app-argument=https://apps.apple.com/us/app/containar/id1503508901">
+  
+  
 
   <div id="sorounding">
-
   
     <div id="content">
 
@@ -43,10 +43,12 @@
 //import Banner from './components/Banner.vue'
 
 import About from "./components/About.vue";
+// import ManagementPanel from "./components/ManagementPanel.vue"
 
 export default {
   name: "App",
   components: {
+    
     About,
   },
 };
@@ -62,6 +64,9 @@ export default {
   margin: 0;
   align-content: center;
   justify-content: center;
+  border: 0px;
+  border-width: 0px;
+  border-top-width: 0px;
 
 }
 

@@ -2,24 +2,24 @@
 
     <section>
 
-        <form @onclick="sendSubmitButton">
+        <form @submit.prevent="sendSubmitButton">
             <div>
 
                 <div>
                     <label for="inp:name">Name</label>
-                    <input  v-model="username" label="inp:name" type="text" placeholder="Namen eingeben">
+                    <input  v-model="form.username" label="inp:name" type="text" placeholder="Namen eingeben">
                 </div>
                 <div>
                     <label for="inp:email">E-Mail-Adresse</label>
-                    <input label="inp:email" type="email" placeholder="E-Mail-Adresse eingeben">
+                    <input v-model="form.email" label="inp:email" type="email" placeholder="E-Mail-Adresse eingeben">
                 </div>
                 <div>
-                    <label for="inp:telnummer">Telefonnummer</label>
-                    <input label="inp:telnummer" type="tel" placeholder="Telefonnummer eingeben">
+                    <label for="inp:phone">Telefonnummer</label>
+                    <input v-model="form.phone" label="inp:phone" type="tel" placeholder="Telefonnummer eingeben">
                 </div>
                 <div id="message">
-                    <label for="inp:message">Nachricht</label>
-                    <input label="inp:message" type="text" placeholder="Nachricht eingeben">
+                    <label for="inp:inquiry">Nachricht</label>
+                    <input v-model="form.inquiry" label="inp:inquiry" type="text" placeholder="Nachricht eingeben">
                 </div>
             </div>
 
@@ -35,23 +35,42 @@
 
 
 <script>
+import axios from 'axios'
 
 export default { 
 
 
     data() {
+        return {
+            
+            form: {
+                email: '',
+                username: '',
+                phone: '',
+                inquiry: ''
+            }
+        }
 
     },
     methods: {
 
-        sendSubmitButton(event) {
+        sendSubmitButton() {
 
-            console.log(this.username)
-            alert('Form submitted' + event.target.name)
-            return true;
+            var dto;
 
+            dto = {"email": this.form.email, 
+            "inquiry": this.form.inquiry, 
+            "phone": this.form.phone,
+            "username": this.form.username}
+
+            console.log(JSON.stringify(dto))
+
+            axios.defaults.headers['api_key'] = '165846816356876787631';
+
+            axios.post('http://localhost:80/form/new', JSON.stringify(this.form))
+                .then(response => console.log(response))
+                .catch(error => console.log(error))
         }
-
     }
 
 
@@ -65,7 +84,7 @@ export default {
 
 section {
 
-
+    border-radius: 0px 0px 50px 50px;
     font-family: "Frutiger_65_Bold";
     font-size: 1.3em;
     background-color: white; 

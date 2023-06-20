@@ -61,7 +61,7 @@ export default {
 
 
 section {
-  border-radius: 0px 0px 50px 50px;
+  
   background-color: rgb(218, 218, 218);
   
 }
