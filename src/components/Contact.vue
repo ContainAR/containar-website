@@ -56,20 +56,44 @@ export default {
 
         sendSubmitButton() {
 
+            /*
             var dto;
-
             dto = {"email": this.form.email, 
             "inquiry": this.form.inquiry, 
             "phone": this.form.phone,
-            "username": this.form.username}
+            "username": this.form.username} */
 
-            console.log(JSON.stringify(dto))
+            console.log(JSON.stringify( this.form ))
 
-            axios.defaults.headers['api_key'] = '165846816356876787631';
+            // axios.defaults.headers['api_key'] = '165846816356876787631';
 
-            axios.post('http://localhost:80/form/new', JSON.stringify(this.form))
-                .then(response => console.log(response))
-                .catch(error => console.log(error))
+            let data = JSON.stringify({
+            "form": {
+                "subject": this.form.username,
+                "email": this.form.email,
+                "inquiry": this.form.inquiry,
+                "phone": this.form.phone
+            }
+            });
+
+            let config = {
+            method: 'post',
+            maxBodyLength: Infinity,
+            url: 'http://127.0.0.1:80/form/new',
+            headers: { 
+                'Content-Type': 'application/json', 
+                'api_key': '165846816356876787631'
+            },
+            data : data
+            };
+
+            axios.request(config)
+            .then((response) => {
+            console.log(JSON.stringify(response.data));
+            })
+            .catch((error) => {
+            console.log(error);
+            });
         }
     }
 
