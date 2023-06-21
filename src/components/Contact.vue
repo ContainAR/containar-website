@@ -2,12 +2,12 @@
 
     <section>
 
-        <form @submit.prevent="sendSubmitButton">
+        <form @submit.prevent="sendSubmitButton" id="formular" v-if="notSended">
             <div>
 
                 <div>
                     <label for="inp:name">Name</label>
-                    <input  v-model="form.username" label="inp:name" type="text" placeholder="Namen eingeben">
+                    <input  v-model="form.personName" label="inp:name" type="text" placeholder="Namen eingeben">
                 </div>
                 <div>
                     <label for="inp:email">E-Mail-Adresse</label>
@@ -29,6 +29,14 @@
 
         </form>
 
+        <div v-if="sendSuccessful">
+            <p>VIelen Dank für Ihre Anfrage. Wir melden uns in kürze bei Ihnen.</p>
+        </div>
+
+        <div v-if="sendFailed">
+            <p>Es gibt ein Problem bei der Übermittlung des Formulars. Bitte versuchen Sie es erneut.</p>
+        </div>
+
     </section>
     
 </template>
@@ -43,11 +51,15 @@ export default {
     data() {
         return {
             
+            sendSuccessful: false,
+            sendFailed: false,
+            notSended: true,
             form: {
                 email: '',
                 username: '',
                 phone: '',
-                inquiry: ''
+                inquiry: '',
+                personName: ''
             }
         }
 
@@ -56,30 +68,23 @@ export default {
 
         sendSubmitButton() {
 
-            /*
-            var dto;
-            dto = {"email": this.form.email, 
-            "inquiry": this.form.inquiry, 
-            "phone": this.form.phone,
-            "username": this.form.username} */
-
             console.log(JSON.stringify( this.form ))
 
-            // axios.defaults.headers['api_key'] = '165846816356876787631';
 
             let data = JSON.stringify({
             "form": {
                 "subject": this.form.username,
                 "email": this.form.email,
                 "inquiry": this.form.inquiry,
-                "phone": this.form.phone
+                "phone": this.form.phone,
+                "personName": this.form.personName
             }
             });
 
             let config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: 'http://127.0.0.1:80/form/new',
+            url: 'http://kurz-containar.de:80/form/new',
             headers: { 
                 'Content-Type': 'application/json', 
                 'api_key': '165846816356876787631'
@@ -89,10 +94,17 @@ export default {
 
             axios.request(config)
             .then((response) => {
-            console.log(JSON.stringify(response.data));
+            
+                console.log(JSON.stringify(response.data));
+                this.sendSuccessful = true;
+                this.notSended = false;
+
             })
             .catch((error) => {
-            console.log(error);
+
+                console.log(error);
+                this.sendFailed = true;
+
             });
         }
     }
@@ -125,7 +137,11 @@ section {
    
 }
 
+#send-success {
 
+    visibility: false;
+
+}
 
 section div div {
     
@@ -231,15 +247,30 @@ section #submit input:active {
 
     section div div input {
 
-        width: 200px;
+        width: 250px;
             
     }
 
 
     section div #message input {
 
-        width: 200px;
+        width: 250px;
             
+    }
+
+    section div div {
+    
+        display: grid;
+        border-color: white;
+        grid-template: "txt txt"
+                        "inp inp"
+                        "btn btn";
+    
+    
+    }
+
+    form div div label {
+        padding: 4px;
     }
 
 
