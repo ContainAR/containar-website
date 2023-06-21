@@ -48,7 +48,7 @@ genau wissen, wo der Container abgestellt werden soll."
     link_image="img_send-images"
   ></info-right>
   <Workflow></Workflow>
-  <Contact></Contact>
+  <!-- <Contact></Contact> -->
   
 </template>
 
@@ -59,7 +59,7 @@ import Workflow from "../components/Workflow.vue";
 import InfoRight from "../components/LandingPage/InfoRight.vue";
 import InfoLeft from "../components/LandingPage/InfoLeft.vue";
 import Video from "../components/Video.vue";
-import Contact from "../components/Contact.vue"
+// import Contact from "../components/Contact.vue"
 
 export default {
   name: "App",
@@ -68,7 +68,7 @@ export default {
     InfoRight,
     InfoLeft,
     Video,
-    Contact
+    // Contact
     
   },
 };
