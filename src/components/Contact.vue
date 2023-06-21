@@ -84,7 +84,7 @@ export default {
             let config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: 'http://kurz-containar.de:80/form/new',
+            url: 'https://kurz-containar.de:80/form/new',
             headers: { 
                 'Content-Type': 'application/json', 
                 'api_key': '165846816356876787631'
@@ -120,7 +120,7 @@ export default {
 
 section {
 
-    /* border-radius: 0px 0px 50px 50px; */
+    border-radius: 0px 0px 50px 50px;
     font-family: "Frutiger_65_Bold";
     font-size: 1.3em;
     background-color: white; 
