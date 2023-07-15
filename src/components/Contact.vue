@@ -120,7 +120,7 @@ export default {
 
 section {
 
-    /* border-radius: 0px 0px 50px 50px; */
+    border-radius: 0px 0px 50px 50px;
     font-family: "Frutiger_65_Bold";
     font-size: 1.3em;
     background-color: white; 
