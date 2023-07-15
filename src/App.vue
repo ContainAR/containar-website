@@ -67,6 +67,7 @@ export default {
   border: 0px;
   border-width: 0px;
   border-top-width: 0px;
+  
 
 }
 
@@ -75,7 +76,8 @@ export default {
   padding-top: 2%;
   padding-right: 5%;
   padding-left: 5%;
-  width: 90%
+  width: 90%;
+  
 }
 
 #app {
@@ -148,6 +150,33 @@ export default {
 
 }
 
+@media screen and (min-width: 2200px) {
+  
+  #sorounding {
+    display: block;
+    
+    
+
+  }
+
+  #content {
+    
+      text-align: center;
+      width: 1900px;
+      position: absolute;
+      margin-left: auto; 
+      margin-right: auto; 
+      left: 0; 
+      right: 0; 
+      top: 5%;
+      padding: 0;
+      
+
+  }
+
+
+}
+
 @media screen and (max-width: 1100px) {
   
   #content {
@@ -164,6 +193,7 @@ export default {
   #content {
     
     padding-top: 5%;
+
 
   }
 
