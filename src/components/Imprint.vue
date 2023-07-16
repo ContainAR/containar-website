@@ -45,8 +45,11 @@ export default {
 
 section {
     font-family: "Frutiger_65_Bold";
-     text-align: left;
-  margin-left: 2%;
+    text-align: left;
+    
+    background: white;
+    padding: 2%;
+    border-radius: 0px 0px 50px 50px;
 }
 
 h2 {

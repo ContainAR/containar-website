@@ -20,6 +20,13 @@
       aber auch Nutzungsdaten wie Ihre IP-Adresse.
     </p>
 
+    <h3>Datenschutzbeauftragter</h3>
+    <p>Barth Datenschutz GmbH<br>
+    Brunnengasse 3<br>
+    73650 Winterbach</p>
+    <p>Achim Barth<br>
+    <a href="mailto:barth@barth-datenschutz.de">barth@barth-datenschutz.de</a></p>
+
     <h3>Gespeicherte Daten, zweckgebundene Datenverwendung, Nutzungszweck</h3>
     <p>
       Wir speichern zum Zweck der Systemsicherheit lediglich anonymisierte
@@ -174,7 +181,7 @@
       jederzeit die uns erteilte Einwilligung zur Datenerhebung, Verarbeitung
       und Verwendung ohne Angabe von Gründen widerrufen. Wenden Sie sich hierzu
       an unseren&nbsp;<a
-        href="mailto:christian.mueller@kurz-entsorgung.de"
+        href="mailto:barth@barth-datenschutz.de"
         title="Öffnet internen Link im aktuellen Fenster"
         class="mail"
         >Datenschutzbeauftragten</a
@@ -193,10 +200,17 @@ export default {};
 <style scoped>
 @import "../assets/fonts/fonts.css";
 
+main {
+  
+}
+
 section {
   font-family: "Frutiger_65_Bold";
   text-align: left;
-  margin-left: 2%;
+  background: white;
+  padding: 2%;
+  border-radius: 0px 0px 50px 50px;
+  
 }
 
 h2 {
