@@ -30,11 +30,11 @@
         </form>
 
         <div v-if="sendSuccessful">
-            <p>VIelen Dank für Ihre Anfrage. Wir melden uns in kürze bei Ihnen.</p>
+            <p>Vielen Dank für Ihre Anfrage. Wir melden uns in kürze bei Ihnen.</p>
         </div>
 
         <div v-if="sendFailed">
-            <p>Es gibt ein Problem bei der Übermittlung des Formulars. Bitte versuchen Sie es erneut.</p>
+            <p>Es gibt ein Problem bei der Übermittlung des Formulares. Bitte versuchen Sie es erneut.</p>
         </div>
 
     </section>
