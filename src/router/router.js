@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 import LandingPage from "../components/LandingPage.vue";
 import Impress from "../components/Imprint.vue";
@@ -7,6 +7,7 @@ import Workflow from "../components/Workflow.vue";
 import Kurz from "../components/KURZ.vue";
 import Contact from "../components/Contact.vue"
 import NotFound from "../components/NotFound.vue";
+import Android from "../components/Android.vue"
 
 
 const routes = [
@@ -17,13 +18,14 @@ const routes = [
     {path: "/privacypolicy", component: PrivacyPolicy},
     {path: "/workflow", component: Workflow},
     {path: "/kurz", component: Kurz},
+    {path: "/android", component: Android},
     {path: '/:catchAll(.*)', component: NotFound, name: 'NotFound'},
 
 ];
 
 const router = createRouter({
 
-    history: createWebHashHistory(),
+    history: createWebHistory(),
     routes
 
 });
