@@ -40,8 +40,7 @@
         font-family: "Frutiger_65_Bold";
         
         text-align: center;
-        justify-content: center;
-        align-content: center;
+        
 
         background: white;
     
@@ -51,28 +50,15 @@
         border-radius: 0px 0px 50px 50px;
 
     }
-    
-    section #content_container h2 {
+
+    section #download {
+
         font-family: "Frutiger_65_Bold";
-        color: black;
-    }
-
-    section #content_container #download {
-
-        width: 130px;
-        height: 60px;
-
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-
-        background: rgb(239, 114, 2);
+        text: black;
 
     }
 
-    section #content_container #download a p {
-        color: black;
-    }
+
     
     @media screen and (max-width: 1300px) {
     
