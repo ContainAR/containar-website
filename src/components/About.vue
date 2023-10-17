@@ -43,6 +43,13 @@
           <img src="../assets/Apple_App_Store.svg" />
         </p>
       </a>
+    
+
+      <a href="app-release-1-4.apk">
+        <p>
+          <img src="../assets/Android_Logo.png" />
+        </p>
+      </a>
     </div>
 
   </section>

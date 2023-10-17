@@ -9,7 +9,7 @@
 
 
             <div id="download">
-                <a href="app-release-1-4.apk"><p>Download</p></a>
+                <a href="app-release-1-4.apk"><p><img src="../assets/Android_Logo.png" /></p></a>
             </div>
         
 
