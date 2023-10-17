@@ -16,9 +16,9 @@
                 <div id="icon"><img src="./assets/Icon180.png" /></div>
             </router-link>
             <router-link to="/"><div>Über die App</div></router-link>
-            <a href="#WF" v-scroll-to="'#Workflow'"><div>Funktionsweise</div></a>
+            <router-link to="/contact"><div>Kontakt</div></router-link>
             <!--  <div>Kontakt</div> -->
-            <a href="https://www.kurzgruppe.de/" target="_blank"><div>KURZ Gruppe</div></a>
+            <router-link to="/android"><div>Android Version</div></router-link>
           </div>
           
           <img id="banner_image" src="./assets/banner.png" />

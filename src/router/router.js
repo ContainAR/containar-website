@@ -6,8 +6,9 @@ import PrivacyPolicy from "../components/PrivacyPolicy.vue";
 import Workflow from "../components/Workflow.vue";
 import Kurz from "../components/KURZ.vue";
 import Contact from "../components/Contact.vue"
-import NotFound from "../components/NotFound.vue";
 import Android from "../components/Android.vue"
+import NotFound from "../components/NotFound.vue";
+
 
 
 const routes = [

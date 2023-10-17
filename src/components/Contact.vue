@@ -34,7 +34,7 @@
         </div>
 
         <div v-if="sendFailed">
-            <p>Es gibt ein Problem bei der Übermittlung des Formulares. Bitte versuchen Sie es erneut.</p>
+            <p>Es gibt ein Problem bei der Übermittlung des Formulares. Bitte schreiben Sie eine E-Mail an benedikt.kurz@kurz-entsorgung.dex.</p>
         </div>
 
     </section>
