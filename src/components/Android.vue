@@ -9,8 +9,12 @@
 
 
             <div id="download">
-                <a href="app-release-1-4.apk"><p><img src="../assets/Android_Logo.png" /></p></a>
+                <a href="ContainAR_V1-6.apk"><p><img src="../assets/Android_Logo.png" /></p></a>
             </div>
+
+            <p>Beachten Sie, dass die App nur auf <a href="https://developers.google.com/ar/devices?hl=de">diesen Geräten</a> genutzt werden kann.</p>
+
+            <!-- <p>Weder ContainAR noch die KURZ Entsorgung GmbH übernimmt hier eine Haftung für externe Links.</p> -->
         
 
         </div>
@@ -66,6 +70,14 @@
     
             width: 70%;
     
+        }
+
+        img {
+            width: 70%;
+        }
+
+        h2 {
+            font-size: large;
         }
     
     }

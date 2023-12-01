@@ -15,8 +15,9 @@
             <router-link to="/">
                 <div id="icon"><img src="./assets/Icon180.png" /></div>
             </router-link>
-            <router-link to="/"><div>Über die App</div></router-link>
-            <router-link to="/contact"><div>Kontakt</div></router-link>
+            <router-link to="/"><div>Die App</div></router-link>
+            <!-- <router-link to="/contact"><div>Kontakt</div></router-link> -->
+            <router-link to="/kurz"><div>KURZ</div></router-link>
             <!--  <div>Kontakt</div> -->
             <router-link to="/android"><div>Android Version</div></router-link>
           </div>

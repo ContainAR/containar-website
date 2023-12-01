@@ -22,6 +22,14 @@ export default {
 
 @import "../assets/fonts/fonts.css";
 
+
+section {
+  padding: 20px;
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 50px 50px;
+}
+
 .kurz {
 
   text-align: left;
